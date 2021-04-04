@@ -6823,7 +6823,6 @@ section.experienceSec {
 
 /*************************************End Home8****************************************************/
 
-@charset "utf-8";
 /* CSS Document */
 @media (min-width: 992px) and (max-width: 1200px) {
   .faq_04 h3.marbtm30 {
@@ -7073,6 +7072,7 @@ section.experienceSec {
   header.header2 .navbar-header {
     background: #f7f7f7;
   }
+
   a.header-requestbtn.header2-requestbtn {
     margin: 10px 0px;
     padding: 14px 20px;
@@ -7819,6 +7819,19 @@ section.experienceSec {
   }
 }
 @media only screen and (min-width: 260px) and (max-width: 767px) {
+  header.header2 .navbar-header {
+    background: #f7f7f7 !important;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background: #363636 !important;
+    width: 25px;
+    height: 3px;
+  }
+  .logo-menu img {
+    width: 50% !important;
+    float: left;
+    height: auto;
+  }
   a.header-requestbtn.learn-more {
     display: none !important;
   }
