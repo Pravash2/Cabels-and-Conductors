@@ -1037,6 +1037,9 @@ ul.footer-link li a:hover {
   width: auto;
   float: left;
 }
+.ftr-logo img {
+  width: 150px !important;
+}
 .footer-btm {
   width: 100%;
   float: left;
@@ -1232,19 +1235,15 @@ a.header-requestbtn.learn-more.btn-center {
   text-transform: none;
 }
 .hight-level-section ul {
-  margin: 25px 0px;
+  margin: 25px 0px 0px 25px;
   padding: 0px;
-  display: inline-block;
 }
 .hight-level-section ul li {
   list-style: none;
-  display: inline-block;
   font-size: 17px;
   color: #242424;
   font-weight: 700;
-  padding: 12px 25px 12px 20px;
-  border-right: 1px solid #666;
-  margin-right: 15px;
+  text-align: left;
 }
 .hight-level-section ul li:last-child {
   border: 0px;
@@ -2270,6 +2269,7 @@ ul.choose-list li {
   width: 100%;
   float: left;
   height: auto;
+  height: 250px;
 }
 .service-list-column .service-heading {
   width: 100%;
@@ -7418,7 +7418,10 @@ section.experienceSec {
     height: auto;
   }
   .hight-level-section p {
-    text-align: center !important;
+  }
+  .hight-level-section h4 {
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
   }
   .testimonial-rght-head {
     width: 100%;
@@ -7826,6 +7829,10 @@ section.experienceSec {
     background: #363636 !important;
     width: 25px;
     height: 3px;
+  }
+  .hight-level-section .value-icon {
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
   }
   .logo-menu img {
     width: 50% !important;
@@ -10798,6 +10805,9 @@ ul.filter > li span {
 }
 .project_img.pad_zero {
   padding: 0;
+}
+.gal-item .img-full {
+  height: 300px !important;
 }
 .project_txt_btn {
   width: 100%;
