@@ -341,7 +341,7 @@ a.header-requestbtn:before {
 }
 /*===hdrvariation1_Navigation===*/
 .header2 #main-navigation-wrapper.navbar-default {
-  margin-top: 5px !important;
+  margin-top: 5px;
 }
 #main-navigation-wrapper.navbar-default {
   width: 100%;
@@ -7039,6 +7039,9 @@ section.experienceSec {
   }
 }
 @media only screen and (min-width: 260px) and (max-width: 991px) {
+  header.header2 {
+    background: #fdcd00;
+  }
   .display-block {
     display: none;
   }
