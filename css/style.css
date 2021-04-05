@@ -71,6 +71,7 @@ p.fnt-16 {
 }
 p.fnt-17 {
   font-size: 17px;
+  margin-bottom: 10px;
 }
 p.fnt-18 {
   font-size: 18px;
@@ -7470,6 +7471,12 @@ section.experienceSec {
     height: auto;
     padding-top: 70px;
   }
+  .bestthing-section.why-choose-section p {
+    text-align: left;
+  }
+  .bestthing-section.why-choose-section .fnt-17 {
+    text-align: left;
+  }
   ul.choose-list {
     float: none;
     display: inline-block;
@@ -7993,8 +8000,10 @@ section.experienceSec {
   .history-list {
     margin-bottom: 30px;
   }
-  p.fnt-17 {
+  .why-choose-section p {
     font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
   }
   .nav-tabs > li > a {
     font-size: 15px;
