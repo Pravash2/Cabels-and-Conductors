@@ -7150,7 +7150,8 @@ section.experienceSec {
     margin: 0px;
   }
   ul.header-info li.phn a {
-    display: none;
+    display: block;
+    color: #000;
   }
   .logo-menu {
     display: block;
@@ -7172,7 +7173,7 @@ section.experienceSec {
     border: medium none;
     display: block;
     margin: 8px 0px 9px;
-    padding: 15px 10px;
+    padding: 25px 10px;
   }
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
@@ -7842,7 +7843,7 @@ section.experienceSec {
     padding: 0px;
   }
   .logo-menu img {
-    width: 50% !important;
+    width: 60% !important;
     float: left;
     height: auto;
   }
