@@ -1168,6 +1168,13 @@ a.header-requestbtn.learn-more.btn-center {
   height: 387px;
   background: #f1f1f1;
 }
+.bestthing-section h4 {
+  color: #ddd;
+  font-weight: 500;
+}
+.bestthing-section h3 {
+  color: #fff;
+}
 .bestthing-text-column {
   z-index: 1;
 }
@@ -1178,11 +1185,13 @@ a.header-requestbtn.learn-more.btn-center {
   top: 0px;
   width: 50.7%;
   max-width: 683px;
+  display: none;
 }
 .bestthing-img img {
-  width: 100%;
+  width: 30%;
   float: left;
   height: 387px;
+  display: none;
 }
 /*======bestthing-section end=======*/
 
@@ -1477,13 +1486,15 @@ ul.whychoose-list {
   float: left;
   margin: 0px;
   padding: 0px;
+  text-align: left;
 }
 ul.whychoose-list li {
   list-style: none;
   float: left;
   width: 100%;
-  padding: 0px 0px 0px 94px;
+  padding: 0px 0px 0px 34px;
   margin-bottom: 50px;
+  text-align: left;
 }
 ul.whychoose-list li.delivery-icon {
   background: url(../images/delivery-icon.png) no-repeat 10px 0px;
@@ -7039,6 +7050,9 @@ section.experienceSec {
   }
 }
 @media only screen and (min-width: 260px) and (max-width: 991px) {
+  ul.whychoose-list li {
+    margin-bottom: 20px;
+  }
   header.header2 {
     background: #fdcd00;
   }
