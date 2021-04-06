@@ -7050,6 +7050,9 @@ section.experienceSec {
   }
 }
 @media only screen and (min-width: 260px) and (max-width: 991px) {
+  .inner-pages-bnr {
+    top: 50px;
+  }
   ul.whychoose-list li {
     margin-bottom: 20px;
   }
