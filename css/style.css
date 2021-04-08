@@ -7865,7 +7865,10 @@ section.experienceSec {
     height: auto;
   }
   a.header-requestbtn.learn-more {
-    display: none !important;
+    width: 100px;
+    height: 30px;
+    font-size: 0.8rem;
+    line-height: 5px;
   }
   .row {
     margin: 0;
@@ -9934,7 +9937,6 @@ section.experienceSec {
     float: unset;
   }
   #minimal-bootstrap-carousel .carousel-caption .thm-container .box .content {
-    display: none;
   }
   section.hm8WelcomeStrip {
     margin-top: 80px;
@@ -11168,6 +11170,23 @@ a.view-all.slide_learn_btn.view_project_btn:hover {
     font-size: 25px !important;
     text-align: center;
     color: #fff !important;
+    margin-top: 40px;
+  }
+  #minimal-bootstrap-carousel
+    .carousel-caption
+    .thm-container
+    .box
+    .content.text-left {
+    text-align: center;
+    padding-left: 10px;
+  }
+  a.header-requestbtn.learn-more.btn-center {
+    float: none;
+    display: inline-block;
+  }
+
+  .carousel-inner .slide-1 .content {
+    text-align: center;
   }
   #minimal-bootstrap-carousel.home1
     .carousel-caption
